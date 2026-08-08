@@ -1,0 +1,15 @@
+# Requisitos para correr TP1_PINN_cavidad.ipynb
+# Instalar con: pip install -r requirements.txt
+#
+# Nota: no se requiere GPU/CUDA. El notebook detecta automáticamente si hay
+# GPU disponible (torch.cuda.is_available()) y si no, corre en CPU sin problema
+# (el entrenamiento completo tarda entre 3 y 6 minutos en CPU).
+
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+torch==2.13.0
+
+# Solo necesario si se corre el notebook (.ipynb) desde Jupyter/VS Code:
+ipykernel
+nbformat
